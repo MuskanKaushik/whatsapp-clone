@@ -21,7 +21,8 @@ function Login(){
         .catch((error) => alert(error.message));
     } //inside the console you can get credentials and there the idToken is referred as the API key
 
-    return(
+    return
+    (
         <div className="login">
             <div className="login_container">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt=""/> 
