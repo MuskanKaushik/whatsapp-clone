@@ -3,6 +3,13 @@
     display: flex;
     flex-direction: column;
 }
+ .chat-room-name{
+    margin: 0px;
+ }
+
+.chat-room-last-seen{
+    margin: 0;
+}
 
 .chat_header{
     padding: 20px;
@@ -15,6 +22,7 @@
     flex: 1;
     padding-left: 20px;
 }
+
 .chat_headerInfo > h3{
     margin-bottom: 3px;
     font-weight: 500;
@@ -62,5 +70,34 @@
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
-    overflow: scroll;
+}
+
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chat_footer > form{
+    flex: 1;
+    display: flex;
+}
+
+.chat_footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    margin: 0 10px 0px 10px;
+}
+
+.chat_footer > form > button{
+    display: none;    
+}
+
+.chat_footer > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
 }

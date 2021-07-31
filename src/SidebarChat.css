@@ -5,14 +5,23 @@
     border-bottom: 1px solid #f6f6f6;
 }
 
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
 .sidebarChat:hover{
     background-color: #ebebeb;
 }
 
 .sidebarChat_info > h2{
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 .sidebarChat_info{
     margin-left: 15px;
+}
+
+.add-new-chat-title{
+    margin: 0px 0px 0px 10px;
 }
