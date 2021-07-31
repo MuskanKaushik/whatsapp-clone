@@ -26,7 +26,8 @@
     margin-left: 10px;
 }
 
-.sidebar_searchContainer > .MuiSvgIcon-root{
+.sidebar_searchContainer > .MuiSvgIcon-root
+{
     color: gray;
     padding: 10px;
 }
