@@ -8,7 +8,8 @@ import './Sidebar.css';
 import SidebarChat from "./SidebarChat";
 import db from "./firebase";//local firebase
 
-function Sidebar(){
+function Sidebar()
+{
   const [rooms, setRooms ] = useState([]);
 
   useEffect(() => {
